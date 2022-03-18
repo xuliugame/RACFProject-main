@@ -1,0 +1,153 @@
+#content{
+    width:100vw;
+    height:130vw;
+}
+#header-img{
+    width:100vw;
+    height:25vw;
+    background-size:cover;
+    background-position:0% 90%;
+}
+
+#search-contain{
+    width:60vw;
+    height:5vw;
+    margin:2vw 20vw;
+    border-radius:5px;
+    background-color:white;
+    border:2px solid #C8C9CB;
+}
+
+#search-contain > img {
+    position:relative;
+    width:2vw;
+    height:2vw;
+    top:-3.75vw;
+    left:16vw;
+}
+
+#search-contain > img:nth-child(3){
+    width:1.6vw;
+    height:2vw;
+    left:1vw;
+}
+
+
+#search-contain > input{
+    position:relative;
+    height:5vw;
+    padding:0;
+    margin:0;
+    border:none;
+    border-left:2px solid #C8C9CB;
+    width:38vw;
+    padding-left:4vw;
+    font-size:1vw;
+}
+#search-contain > input:nth-child(1){
+    border-left:none;
+    width:12.5vw;
+}
+
+#search-contain > input::placeholder{
+    text-decoration:underline;
+    text-underline-offset: 0.3vw;
+    font-size:1vw;
+}
+
+#venue-container{
+    width:64vw;
+    height:80vw;
+    margin:0 19vw;
+    overflow-y:scroll;
+}
+
+.address{
+    font-size:0.8vw;
+    font-family:'Roboto','sans-serif';
+}
+
+#venue-container::-webkit-scrollbar{
+    width:0.3vw;
+}
+#venue-container::-webkit-scrollbar-track{
+    background:#f1f1f1;
+    background-clip: content-box;
+}
+#venue-container::-webkit-scrollbar-thumb{
+    background:#888;
+    border-radius:10px;
+}
+
+.container{
+    margin-left:1.5vw;
+    width:29vw;
+    height:20vw;
+    margin-bottom:6vw;
+}
+
+.container > img{
+    width:29vw;
+    height:16vw;
+}
+
+.container > button{
+    left:24vw;
+} 
+
+#title{
+    margin:0;
+    color:#343A40;
+    font-size:2.8vw;
+    letter-spacing:0.1vw;
+    font-family:'Roboto','sans-serif';
+}
+
+#long-desc{
+    font-size:1.2vw;
+    letter-spacing:0.02vw;
+    color:#494E53;
+    font-family:'Roboto','sans-serif';
+}
+
+#venue-head-contain{
+    width:48vw;
+    margin:0 20vw;
+    margin-top:4vw;
+    margin-bottom:2vw;
+}
+
+.title{
+    margin-top:0.5vw;
+}
+
+.date{
+    margin:1vw 0;
+}
+
+.admissions-header{
+    color:#343A40;
+    transform: scale(1,0.9);
+    letter-spacing:0.05vw;
+    font-weight:900;
+    font-size:1.3vw;
+    margin-top:2vw;
+    font-family:'Roboto', 'sans-serif';
+}
+
+.date{
+    color:#1E8AFD !important;
+    margin-top:0.3vw !important;
+    height:1vw !important;
+}
+
+.date > h5 {
+    width:50% !important;
+    font-weight:500 !important;
+    float:left !important;
+    margin:0 !important;
+}
+
+.date > h5:nth-child(2){
+    text-align:right !important;
+}

@@ -1,0 +1,19 @@
+#qa-div > h2:before {
+    content: "▸";
+}
+
+#qa-div > h2:nth-child(1){
+    margin-top:3vw;
+}
+
+#content{
+    padding:2vw 20vw;
+}
+
+.downArrow:before{
+    content: "▾" !important;
+}
+
+body{
+    background-color:#f2f2f2;
+}

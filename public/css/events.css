@@ -1,0 +1,157 @@
+body{
+    background:#F2F2F2;
+}
+
+.container{
+    width:19vw;
+    height:17vw;
+    font-size:0.8vw;
+    margin-right:1vw;
+    font-family:'Roboto', 'sans-serif';
+    float: left;
+}
+
+.container > *{
+    margin:0;
+    padding:0;
+}
+
+.title{
+    color: #363C42;
+    letter-spacing: 0.08vw;
+}
+
+.date{
+    font-size:0.9vw;
+    height:1vw;
+    color:#474C51;
+}
+
+.date > h5 {
+    font-weight:500;
+    margin:0;
+    margin-top:0.4vw;
+}
+
+.location{
+    color:#474C51;
+    margin-top:1.8vw;
+}
+
+button{
+    position:relative;
+    border:2px solid #3EB0C2;
+    width:5vw;
+    height:1.5vw;
+    background-color:#F2F2F2;
+    border-radius:3vw;
+    font-size:0.5vw;
+    color: #3EB0C2;
+    left:9.5vw;
+    font-family:'Roboto', 'sans-serif';
+    font-weight:bold;
+}
+
+.event-img{
+    width:19vw;
+    height:10vw;
+}
+#content{
+    width:100vw;
+    height:105vw;
+}
+
+#search-contain{
+    width:60vw;
+    height:5vw;
+    margin:2vw 20vw;
+    border-radius:5px;
+    background-color:white;
+    border:2px solid #C8C9CB;
+}
+
+#search-contain > img {
+    position:relative;
+    width:2vw;
+    height:2vw;
+    top:-3.75vw;
+    left:16vw;
+}
+
+#search-contain > img:nth-child(3){
+    width:1.6vw;
+    height:2vw;
+    left:1vw;
+}
+
+
+#search-contain > input{
+    position:relative;
+    height:5vw;
+    padding:0;
+    margin:0;
+    border:none;
+    border-left:2px solid #C8C9CB;
+    width:38vw;
+    padding-left:4vw;
+    font-size:1vw;
+}
+#search-contain > input:nth-child(1){
+    border-left:none;
+    width:12.5vw;
+}
+
+#search-contain > input::placeholder{
+    text-decoration:underline;
+    text-underline-offset: 0.3vw;
+    font-size:1vw;
+}
+#header{
+    margin-left:20vw;
+}
+
+ul#categories{
+    width:60vw;
+    height:3vw;
+    margin:2vw 20vw;
+    margin-left:17.5vw;
+    margin-bottom:0vw;
+    padding:0;
+    list-style: none;
+    font-size:1vw;
+    font-family:'Roboto','sans-serif';
+    text-align:center;
+}
+
+ul#categories > li{
+    width:6.66vw;
+    display:block;
+    float:left;
+    white-space: nowrap;
+}
+#big-container{
+    margin:0 20vw;
+    margin-right:19vw;
+    height:60vw;
+    overflow-y:scroll;
+}
+
+#header-img{
+    width:100vw;
+    height:25vw;
+    background-size:cover;
+    background-position:0% 90%;
+}
+
+
+#big-container::-webkit-scrollbar{
+    width:0.3vw;
+}
+#big-container::-webkit-scrollbar-track{
+    background:#f1f1f1;
+    background-clip: content-box;
+}
+#big-container::-webkit-scrollbar-thumb{
+    background:#888;
+    border-radius:10px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel='stylesheet' href='/css/nav2.css'>
+    <link rel='stylesheet' href='/css/homepage.css'>
+    <link rel='stylesheet' href='/css/footer.css'>
+    <link rel='stylesheet' href='/css/venueList.css'>
+    <link rel='stylesheet' href='/css/events.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Homepage</title>
+</head>
+<body>
+
+    {{#if message}}
+        <!-- Display the message -->
+        <p id='msg' style='display:none;'>{{message}}</p>
+    {{/if}}
+
+    {{#if role}}
+        <p id='role' style='display:none;'>{{role}}</p>
+    {{/if}}
+
+    {{#if id}}
+        <p id='my-id' style='display:none'>{{id}}</p>
+    {{/if}}
+
+    {{#if email}}
+        <p id='my-email' style='display:none'>{{email}}</p>
+    {{/if}}
+
+    <div id='navigation'></div>
+    <div id='content'></div>
+    <div id='foot'></div>
+    <script src="/scripts/build/homepage.js"></script>
+    <script src="/scripts/build/nav.js"></script>
+    <script src='/scripts/build/footer.js'></script>
+</body>
+</html>

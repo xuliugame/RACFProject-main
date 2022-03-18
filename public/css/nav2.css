@@ -1,0 +1,127 @@
+body{
+    margin:0;
+    font-family:'Roboto','sans-serif';
+    overflow-x:hidden;
+}
+#navigation{
+    width:100vw;
+    height:15.4vw;
+}
+
+#nav-contain{
+    width:100vw;
+    height:17.4vw;
+}
+#bar-top{
+    width:100vw;
+    height:2.5vw;
+    background-color:#343A40;
+}
+#bar-top > ul{
+    width:60vw;
+    height:1.5vw;
+    margin:0;
+    padding:0;
+    padding-top:0.75vw;
+    display:block;
+    float:left;
+}
+#bar-top > ul > li{
+    display:block;
+    width:7vw;
+    float:left;
+    list-style-type:none;
+    font-size:0.8vw;
+    color:white;
+    margin-left:3vw;
+    text-align:center;
+}
+#bar-top > ul > li > a{
+    color:white;
+}
+#bar-top > ul > li:nth-child(1){
+    margin-left:0.5vw;
+}
+#cart{
+    width:1.2vw;
+    height:1.2vw;
+    display:block;
+    float:left;
+    padding-top:0.75vw;
+    margin-left:26.5vw;
+}
+#create-account{
+    color:white;
+    font-size:0.7vw;
+    background-color:#494D50;
+    width:10vw;
+    height:2.5vw;
+    display:block;
+    float:left;
+    margin-left:1.5vw;
+}
+#create-account > p{
+    display:block;
+    width:10vw;
+    margin:0;
+    padding-top:0.85vw;
+    float:left;
+    padding-left:2vw;
+}
+ul#bot-nav{
+    width:60vw;
+    height:2.5vw;
+    margin:0;
+    padding:0;
+    padding-top:1vw;
+    display:block;
+    float:left;
+    margin-top:6.5vw;
+}
+
+ul#bot-nav > li{
+    display:block;
+    width:8vw;
+    float:left;
+    list-style-type:none;
+    font-size:1.2vw;
+    margin-left:4vw;
+    text-align:center;
+}
+ul#bot-nav > li > a{
+    color:black;
+}
+a{
+    text-decoration:none;
+}
+#logoLink{
+    height:11.4vw;
+}
+#logo{
+    display:block;
+    width:20vw;
+    height:8.4vw;
+    float:left;
+    margin-top:1.4vw;
+    margin-left:2vw;
+}
+#bar-bot{
+    width:100vw;
+    height:1.5vw;
+    background-color:#343A40;
+    color:lightgrey;
+    text-align:center;
+    font-family:'Roboto','sans-serif';
+    font-size:0.8vw;
+    font-weight:lighter;
+    letter-spacing: 0.5px;
+    vertical-align:center;
+    height:1.5vw;
+}
+#bar-bot > p{
+    margin:0;
+    padding:0;
+    position:relative;
+    font-size:0.8vw;
+    top:0.25vw;
+}

@@ -1,0 +1,169 @@
+#head-img{
+    width:100vw;
+    height:25vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#F2F2F2;
+    background-position:center;
+}
+
+#about-local-venue{
+    color:#1E8AFD;
+    font-weight:bold;
+    margin:0;
+    margin-bottom:0.5vw;
+    font-size:1vw;
+    letter-spacing:0.05vw;
+}
+#venue-contain{
+    margin:4vw 12vw;
+    margin-bottom:0;
+    font-family:'Roboto','sans-serif';
+}
+
+#title{
+    margin:0;
+    color:#343A40;
+    font-size:2.8vw;
+    letter-spacing:0.1vw;
+}
+
+#long-desc{
+    font-size:1.2vw;
+    letter-spacing:0.02vw;
+    color:#494E53;
+    margin-bottom:3vw;
+}
+
+table{
+    width:46vw;
+    table-layout:fixed;
+    text-align:left;
+    color:#3F454B;
+    font-size:1vw;
+}
+td{
+    padding:0;
+    vertical-align:text-top;
+    padding-top:0.5vw;
+    padding-right:1vw;
+}
+td > p{
+    margin:0;
+}
+td > a{
+    color:#17A2B8;
+    font-weight:bold;
+}
+
+.admissions-header{
+    color:#343A40;
+    transform: scale(1,0.9);
+    letter-spacing:0.05vw;
+    font-weight:900;
+    font-size:1.3vw;
+    margin-top:2vw;
+    font-family:'Roboto', 'sans-serif';
+}
+
+#price-list, #discount-list, #motd2, #discount-msg{
+    font-size:1vw;
+    letter-spacing:0.02vw;
+    color:#494E53;
+}
+
+#discount-msg{
+    font-size:1.2vw;
+    font-weight:900;
+}
+
+#price-list{
+    list-style-type:none;
+    padding:0;
+    margin-bottom:2vw;
+}
+#price-list > li{
+    margin-bottom:0.5vw;
+}
+
+#discount-list{
+    list-style-type:'- ';
+    padding:0;
+    height:14vw;
+    width:40vw;
+    margin:0;
+    margin-left:1vw;
+}
+#discount-list > li{
+    width:40%;
+    float:left;
+    margin-bottom:0.5vw;
+}
+
+#event-contain{
+    height:24vw;
+    margin:0 12vw;
+}
+.container{
+    width:22vw;
+    height:23vw;
+    margin:auto;
+    margin-right:1vw;
+    padding:1vw;
+    padding-bottom:0;
+}
+.event-img{
+    width:22vw;
+    height:15vw;
+}
+.container > button{
+    left:17vw;
+}
+#see-more-events{
+    display:block;
+    margin-left:13vw;
+    color:#28A8BC;
+    font-weight:900;
+    font-family:'Roboto','sans-serif';
+    font-size:1vw;
+    width:10vw;
+}
+#content{
+    width:100vw;
+    height:110vw;
+}
+
+.date{
+    color:#1E8AFD !important;
+    margin-top:0.3vw !important;
+    height:1vw !important;
+}
+
+.date > h5 {
+    width:50% !important;
+    font-weight:500 !important;
+    float:left !important;
+    margin:0 !important;
+}
+
+.date > h5:nth-child(2){
+    text-align:right !important;
+}
+
+.admissions-header:nth-child(1){
+    margin-top:10vw;
+}
+
+#get-qr{
+    display:block;
+    position:static;
+    background-color:#17A2B8;
+    color:white;
+    width:9vw;
+    height:2vw;
+    border-radius:1vw;
+    border:1px solid black;
+    font-size:0.8vw;
+    margin-right:2vw;
+    margin-bottom:6vw;
+}

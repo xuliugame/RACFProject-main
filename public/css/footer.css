@@ -1,0 +1,160 @@
+#foot{
+    width:100vw;
+    height:18vw;
+}
+#footer{
+    width:100vw;
+    height:18vw;
+    background-color:#EBE9E4;
+    margin-top:3vw;
+    padding-top:2vw;
+}
+
+#social-media, #support, #news, #act, #quick{
+    margin:0;
+    margin-left:8vw;
+    width:10vw;
+}
+
+#social-imgs{
+    width:30vw;
+    list-style-type:none;
+    margin:0;
+    margin-left:8vw;
+    padding:0;
+}
+#social-imgs > li{
+    width:2vw;
+    float:left;
+    margin-right:1vw;
+    margin-top:1vw;
+}
+#social-container{
+    width:30vw;
+    height:10vw;
+    float:left;
+}
+
+#support-container{
+    display:block;
+    width:30vw;
+    height:10vw;
+    float:left;
+}
+
+#support-container > ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    margin-top:1vw;
+}
+
+#support-container > ul > li > p, #support-container > ul > li > b{
+    margin:0;
+    float:left;
+    margin-left:0.5vw;
+}
+#support-container > ul > li{
+    display:block;
+    height:1.5vw;
+    width:23vw;
+    font-size:.8vw;
+    font-family:'Roboto','sans-serif';
+    white-space:nowrap;
+}
+
+#support{
+    margin-left:0.5vw;
+}
+
+#news-container{
+    display:block;
+    width:30vw;
+    height:10vw;
+    float:left;
+}
+
+#news, #quick{
+    margin-left:0;
+}
+
+#news-container > input{
+    width:20vw;
+    height:2vw;
+    border-radius:5px;
+    margin-top:1vw;
+}
+
+#news-container > button{
+    position:relative;
+    border:none;
+    background-color:white;
+    width:1.5vw;
+    left:-4vw;
+    font-size:0.8vw;
+}
+
+::placeholder{
+    font-size:0.8vw;
+    font-weight:bold;
+    font-family:'Roboto','sans-serif';
+    color:#838383;
+    padding-left:1vw;
+}
+
+#act-container{
+    display:block;
+    width:60vw;
+    height:5vw;
+    float:left;
+}
+
+#act{
+    width:30vw;
+}
+
+#act-container > p{
+    font-size:0.8vw;
+    font-family:'Roboto','sans-serif';
+    color:#1D1D1C;
+    margin-left:8vw;
+}
+
+#quick-container{
+    display:block;
+    width:30vw;
+    height:5vw;
+    float:left;
+}
+
+#quick-container > ul{
+    list-style-type:none;
+    display:block;
+    margin:0;
+    padding:0;
+    margin-top:1vw;
+}
+
+#quick-container > ul > li{
+    width:7vw;
+    float:left;
+    font-size:1vw;
+    font-family:'Roboto','sans-serif';
+}
+
+#quick-container > ul > li:nth-child(4){
+    text-align:right;
+}
+
+#quick-container > ul > li > a{
+    color:#57B7C5;
+}
+.admissions-header{
+    color:#343A40;
+    transform: scale(1,0.9);
+    letter-spacing:0.05vw;
+    font-weight:900;
+    font-size:1.3vw;
+    margin-top:2vw;
+    font-family:'Roboto', 'sans-serif';
+}

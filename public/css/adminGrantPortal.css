@@ -1,0 +1,141 @@
+body{
+    background-color:#f2f2f2;
+    font-family:'Roboto', 'sans-serif';
+}
+
+h1{
+    font-size:2vw;
+    margin-left:15vw;
+    margin-top:5vw;
+}
+
+#content > p{
+    font-size:1vw;
+    margin-left:15vw;
+    width:70vw;
+}
+
+table{
+    margin-left:15vw;
+    margin-top:5vw;
+    width:70vw;
+    border-collapse:collapse;
+    font-size:1vw;
+}
+
+tr:nth-child(1){
+    text-align:left;
+    border-bottom:1px solid black;
+    background-color:#f2f2f2 !important;
+}
+
+tr:nth-child(odd){
+    background-color:#DBDBDB;
+}
+
+tr{
+    height:3vw;
+}
+
+td, th{
+    padding:1vw;
+}
+
+td > button {
+    margin-left:5vw;
+    background-color:#17A2B8;
+    color:white;
+    width:4vw;
+    height:2vw;
+    border-radius:1vw;
+    border:none;
+    font-size:0.8vw;
+}
+
+td:nth-child(4n){
+    width:15vw;
+}
+
+
+#c-div{
+    width:70vw;
+    margin:auto;
+    height:30vw;
+}
+
+#c-div > h2{
+    color:#17A2B8;
+    margin-bottom:2vw;
+    font-size:1.4vw;
+}
+
+#c-div > h3{
+    margin-top:3vw;
+    margin-bottom:1vw;
+}
+
+#c-div > h4{
+    width:23.3vw;
+    float:left;
+    margin-bottom:1vw;
+    margin-top:1vw;
+}
+#c-div > p{
+    float:left;
+    width:22vw;
+    margin-right:1.3vw;
+    margin-top:0;
+    border-bottom:1px solid black;
+    font-size:1.4vw;
+    margin-bottom:2vw;
+}
+
+#c-div > h5{
+    font-size:1vw;
+}
+#content > p#back{
+    font-size:1.5vw;
+    font-weight:bolder;
+}
+
+
+iframe{
+    width:50vw;
+    height:30vw;
+    margin-left:25vw;
+}
+
+div#content > form{
+    width:50vw;
+    margin-left:25vw;
+    margin-top:1vw;
+}
+form > select, form > label{
+    float: left;
+    display:block;
+    margin-top:1vw;
+    margin-bottom:1vw;
+}
+form > label {
+    width:45vw;
+}
+
+form > button{
+    background-color:#17A2B8;
+    color:white;
+    width:4vw;
+    height:2vw;
+    border-radius:1vw;
+    border:none;
+    font-size:0.8vw;
+}
+
+#resp{
+    background-color:white;
+    border:1px solid black;
+    padding:1vw;
+    width:30vw;
+    position:absolute;
+    left:35vw;
+    text-align:center;
+}

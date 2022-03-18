@@ -1,0 +1,176 @@
+body{
+    background:#F2F2F2;
+}
+
+#content{
+    width:100vw;
+    height:84vw;
+    font-family:'Roboto','sans-serif';
+    color:#343A40;
+}
+
+#contain{
+    margin:0 17.5vw;
+}
+
+#date-top{
+    font-size:1vw;
+    margin-bottom:2vw;
+    margin-top:2vw;
+}
+
+#event-name{
+    font-size:2vw;
+    width:44%;
+}
+
+#venue-name{
+    font-weight:normal;
+    font-size:1vw;
+}
+
+#price-range{
+    font-weight:bold;
+    margin-top:8vw;
+    font-size:1vw;
+    width:44%;
+}
+
+#event-image{
+    position:absolute;
+    right:15vw;
+    top:15.35vw;
+    height:25vw;
+    width:35vw;
+    background-size:cover;
+}
+
+#discount-button{
+    border:1px solid #84CAD5;
+    width:15vw;
+    height:2vw;
+    background-color:#17A2B8;
+    border-radius:3vw;
+    font-size:0.8vw;
+    letter-spacing:0.04vw;
+    color: white;
+    margin-top:0.8vw;
+}
+
+#about-event-header{
+    margin-top:7vw;
+    margin-bottom:2vw;
+    font-size:1vw;
+}
+
+#about-event-desc{
+    font-size:0.9vw;
+    letter-spacing:0.04vw;
+    width:70%;
+}
+
+#venue-button{
+    border:2px solid #3EB0C2;
+    width:9vw;
+    height:1.7vw;
+    background-color:#F2F2F2;
+    border-radius:3vw;
+    font-size:0.7vw;
+    color: #3EB0C2;
+    font-weight:bold;
+    margin-bottom:2vw;
+}
+
+#side-bar-contain{
+    position:absolute;
+    right:20vw;
+    top:48vw;
+    width:10vw;
+    height:20vw;
+    font-size:0.9vw;
+}
+
+p#location > a{
+    color:#17A2B8;
+}
+
+#location-header{
+    margin-top:3vw;
+}
+
+#share-header{
+    font-size:1vw;
+    margin-top:4vw;
+}
+
+#social{
+    list-style-type: none;
+    height:2vw;
+    width:12vw;
+    padding:0;
+}
+#social > li{
+    display:block;
+    float:left;
+    margin-right:1vw;
+}
+#social > li > img{
+    height:1.5vw;
+    width:1.5vw;
+}
+
+#more-events-header{
+    font-size:1vw;
+    margin-bottom:2vw;
+}
+
+.container{
+    width:19vw;
+    height:17vw;
+    font-size:0.8vw;
+    margin-right:1vw;
+    font-family:'Roboto', 'sans-serif';
+    float: left;
+}
+
+.container > *{
+    margin:0;
+    padding:0;
+}
+
+.title{
+    color: #363C42;
+    letter-spacing: 0.08vw;
+}
+
+.date{
+    font-size:0.9vw;
+    height:1vw;
+    color:#474C51;
+}
+
+.date > h5 {
+    font-weight:500;
+    margin:0;
+    margin-top:0.4vw;
+}
+
+.location{
+    color:#474C51;
+    margin-top:1.8vw;
+}
+
+.event-img{
+    width:19vw;
+    height:10vw;
+}
+
+#more-events-box{
+    background-color:white;
+    height:22vw;
+    width:100vw;
+    position:relative;
+    left:-17.5vw;
+    padding: 2vw 19vw;
+    margin-top:11vw;
+}
